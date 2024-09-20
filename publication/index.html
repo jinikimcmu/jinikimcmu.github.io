@@ -76,6 +76,7 @@ description: Publication list of Donghoon Shin
         </div>
         {% assign pub_items_sorted = pub.items | sort: "month" | reverse %}
         {% for paper in pub_items_sorted %}
+        <div class = "item col-12 px-0{% endfor %}"></div>
         <!-- <div class="item col-12 px-0 {% for cat_each in paper.category %}tag-{{ cat_each | replace: ' / ', '' }} {% endfor %}"> -->
           <p class="mb-2" style="font-size: 1rem; font-weight: 400 !important;"><a href="{{ paper.slug | prepend: '/publication/' | relative_url }}">{{ paper.title }}</a></p>
           
