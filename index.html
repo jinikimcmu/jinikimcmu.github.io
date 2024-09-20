@@ -76,9 +76,17 @@ description: HCI researcher | Ph.D. student at the Carnegie Mellon University
     <div class="row mt-4">
         {% for pub in pubs %}
         <div class="col-12">
-            <p class="mb-0" style="font-size: 1rem; font-weight: 500 !important;">{{ pub.title }}</p>
-            <p class="mb-1" style="font-size: 1rem; font-weight: 400 !important;">{{ pub.authors}}</p>
+            <p class="mb-0" style="font-size: 1rem; font-weight: 400 !important;">{{ pub.title }}</p>
+            <p class="mb-1" style="font-size: 1rem; font-weight: 350 !important;">{{ pub.authors}}</p>
             <p style="font-size: .95rem; font-weight: 300 !important;">{{ pub.venue }}</p>
+
+            <p>
+                <a href="{{ pub.pdf_url }}" target="_blank" style="text-decoration: none; font-size: 1rem;">
+                    <i class="fas fa-file-pdf" style="color: black; margin-right: 8px;"></i>
+                </a>
+            </p>
+
+
             <hr>
         </div>
         {% endfor %}

@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+{% assign pubs = site.data.publications.list %}
 <!-- 
 <div class="container py-4">
   <div class="row pb-3">
@@ -78,3 +80,18 @@ layout: default
     </p>
   </div>
 </div> -->
+
+
+<div class="container">
+  <p style="font-weight: 600 !important; text-transform: uppercase;">Publications</p>
+  <div class="row mt-4">
+      {% for pub in pubs %}
+      <div class="col-12">
+          <p class="mb-0" style="font-size: 1rem; font-weight: 500 !important;">{{ pub.title }}</p>
+          <p class="mb-1" style="font-size: 1rem; font-weight: 350 !important;">{{ pub.authors}}</p>
+          <p style="font-size: .95rem; font-weight: 300 !important;">{{ pub.venue }}</p>
+          <hr>
+      </div>
+      {% endfor %}
+  </div>
+</div>

@@ -8,7 +8,25 @@ description: Publication list of Donghoon Shin
 {% assign publications = site.publication | sort: 'year' | group_by: 'year' | reverse %}
 {% assign category = site.data.publication-category %}
 
-<style>
+{% assign pubs = site.data.publications.list %}
+
+
+<div class="container">
+  <p style="font-weight: 600 !important; text-transform: uppercase;">Publications</p>
+  <div class="row mt-4">
+      {% for pub in pubs %}
+      <div class="col-12">
+          <p class="mb-0" style="font-size: 1rem; font-weight: 400 !important;">{{ pub.title }}</p>
+          <p class="mb-1" style="font-size: 1rem; font-weight: 350 !important;">{{ pub.authors}}</p>
+          <p style="font-size: .95rem; font-weight: 300 !important;">{{ pub.venue }}</p>
+          <hr>
+      </div>
+      {% endfor %}
+  </div>
+</div>
+
+
+<!-- <style>
     /* [type=radio] {
         display: none !important;
     }
@@ -68,7 +86,7 @@ description: Publication list of Donghoon Shin
       {% for cat in category.types %}
       <label style="font-size: .95rem !important; cursor: pointer" for="tag-{{ cat | replace: ' / ', '' }}" class="ms-4 tag-label tag-{{ cat | replace: ' / ', '' }}" id="label-{{ cat | replace: ' / ', '' }}">{{ cat }}</label>
       {% endfor %} -->
-
+<!-- 
       <div class="row mt-4" style="flex: 0 0 100%;" id="publications">
         {% for pub in publications %}
         <div class="col-12 px-0 mb-3 {% unless forloop.first %}mt-5{% endunless %}">
@@ -118,4 +136,4 @@ description: Publication list of Donghoon Shin
         {% endfor %}
       </div>
     </div>
-</div>
+</div> --> 
