@@ -8,7 +8,7 @@ list: # format date as dd/mm/yyyy
   - title: "First in-person conference attendance @ CHI 2022"
     date: "30/04/2022"
     description: "Excited to attend my first in-person conference (CHI 2022) in New Orleans, LA. See you there soon!"
-    - title: "CHI LBW accepted"
+  - title: "CHI LBW accepted"
     date: "15/10/2022" # Oct 21, 2021
     description: "Our paper on designing interventions for empowering user deliberation in online petition has been accepted to <a href='https://chi2022.acm.org/'>CHI 2022 LBW</a>"
   
