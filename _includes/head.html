@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>{% if page.url == "/" %}{{ page.title }}{% else %}{{ page.title }} | Jini Kim{% endif %}</title>
+  <title>{% if page.url == "/" %}{{ page.title }}{% else %}{{ page.title }} | Jini Kim {% endif %}</title>
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
@@ -45,7 +45,7 @@
   <!-- Opengraph -->
   <meta property="og:type" content="website">
   <meta property="og:image" content="{% if page.slug %}{{ '/assets/images/publication/' | append: page.slug | append: '.jpg' | relative_url }}{% else %}{{ '/assets/images/main/opengraph.jpg' | relative_url }}{% endif %}">
-  <meta property="og:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | Donghoon Shin{% endif %}">
+  <meta property="og:title" content="{% if page.url == '/' %}{{ page.title }}{% else %}{{ page.title }} | Jini Kim {% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Paper overview of {{ page.authors.first | split: ' ' | last }} et al., {{ page.year }}{% endif %}">
 
   <!-- Google scholar -->
@@ -60,6 +60,6 @@
   {% else %}
   <meta name="citation_conference_title" content="{{ page.venue }}">
   {% endif %}
-  <meta name="citation_pdf_url" content="{{ page.slug | prepend: 'https://donghoon.io/assets/pdf/' | append: '.pdf' }}">
+  <meta name="citation_pdf_url" content="{{ page.slug | prepend: 'https://jinikimcmu.github.io/assets/pdf/' | append: '.pdf' }}">
   {% endif %}
 </head>
