@@ -14,5 +14,5 @@ venue_full: The emergence of AI-Powered Short-Form Video Generators (ASVG) has s
 #   - "Chatbot"
 #   - "Healthcare"
 #   - "Design"
-featured: false
+featured: true
 ---

@@ -77,7 +77,7 @@ description: Publication list of Donghoon Shin
         {% assign pub_items_sorted = pub.items | sort: "month" | reverse %}
         {% for paper in pub_items_sorted %}
         <div class = "item col-12 px-0">
-        <!-- <div class="item col-12 px-0 {% for cat_each in paper.category %}tag-{{ cat_each | replace: ' / ', '' }} {% endfor %}"> -->
+        <div class="item col-12 px-0 {% for cat_each in paper.category %}tag-{{ cat_each | replace: ' / ', '' }} {% endfor %}">
           <p class="mb-2" style="font-size: 1rem; font-weight: 400 !important;"><a href="{{ paper.slug | prepend: '/publication/' | relative_url }}">{{ paper.title }}</a></p>
           
           <p class="mb-2" style="font-size: .95rem; font-weight: 200 !important;">
@@ -88,7 +88,6 @@ description: Publication list of Donghoon Shin
           {% endif %}
           {% unless paper.note contains 'accepted' %}
           <p style="font-size: .9rem; font-weight: 300 !important;">
-              {% if paper.project %}
               <a href="{{ paper.slug | prepend: '/publication/' | relative_url }}"><i class="fa-solid fa-external-link-alt"></i>&nbsp;&nbsp;Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
               {% if paper.venue == "arXiv" or paper.note == "to appear" %}
               <a href="{{ '/assets/pdf/' | append: paper.slug | append: '.pdf' | relative_url }}"><i class="fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
