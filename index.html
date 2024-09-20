@@ -6,7 +6,7 @@ description: HCI researcher | Ph.D. student at the Carnegie Mellon University
 
 {% assign projects = site.data.project-main.project %}
 {% assign news = site.data.news.list %}
-{% assign news2 = site.data.publications.list %}
+{% assign pub2 = site.data.pubs.list %}
 
 <div class="container pt-3 pb-4">
     <div class="container vertical-center">
@@ -74,11 +74,11 @@ description: HCI researcher | Ph.D. student at the Carnegie Mellon University
 <div class="container">
     <p style="font-weight: 500 !important; text-transform: uppercase;">Publications</p>
     <div class="row mt-4">
-        {% for new2 in news2 limit: 4 %}
+        {% for pub in pubs limit: 4 %}
         <div class="col-12">
-            <p class="mb-0" style="font-size: 1rem; font-weight: 400 !important;">{{ new2.title }}</p>
-            <p class="mb-1" style="font-size: .85rem; font-weight: 200 !important;">{{ new2.date | date: "%b %-d, %Y" }}</p>
-            <p style="font-size: .95rem; font-weight: 300 !important;">{{ new2.description }}</p>
+            <p class="mb-0" style="font-size: 1rem; font-weight: 400 !important;">{{ pub.title }}</p>
+            <p class="mb-1" style="font-size: .85rem; font-weight: 200 !important;">{{ pub.date | date: "%b %-d, %Y" }}</p>
+            <p style="font-size: .95rem; font-weight: 300 !important;">{{ pub.description }}</p>
             <hr>
         </div>
         {% endfor %}
