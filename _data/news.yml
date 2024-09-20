@@ -1,14 +1,15 @@
 list: # format date as dd/mm/yyyy
-  - title: "CHI 2024 paper accepted! Yay!"
+  - title: "<a href='https://dl.acm.org/doi/10.1145/3613904.3642476'> Our paper </a> on Generative AI for Content Creators has been accepted to <a href='https://chi2024.acm.org/'>CHI 2024</a>. Stay tuned!"
     date: "18/01/2024" # Oct 21, 2021
-    description: "CHI paper on Generative AI for Content Creators has been accepted to <a href='https://chi2024.acm.org/'>CHI 2024</a>. Stay tuned!"
-  - title: "Started grad school at CMU HCII!"
+    description: "CHI 2024 paper accepted! Yay!"
+  - title: "So excited to begin my new journey as a Ph.D. student in HCII at the Carnegie Mellon University 🎉"
     date: "28/08/2023" # Jun 25, 2011
     description: "So excited to begin my new journey as a Ph.D. student in HCII at the Carnegie Mellon University 🎉"
-  - title: "First in-person attendance at the CHI conference!"
+  - title: "Excited to attend my first in-person conference (CHI 2022) in New Orleans, LA. See you there soon!"
     date: "30/04/2022"
     description: "Excited to attend my first in-person conference (CHI 2022) in New Orleans, LA. See you there soon!"
-  - title: "CHI 2022 LBW accepted"
+  - title: "<a href='https://dl.acm.org/doi/10.1145/3491101.3519644/'> Our paper </a> on designing interventions for empowering user deliberation in online petition has been accepted to <a href='https://chi2022.acm.org/'>CHI 2022 LBW</a>"
     date: "28/02/2022" 
-    description: "Our paper on designing interventions for empowering user deliberation in online petition has been accepted to <a href='https://chi2022.acm.org/'>CHI 2022 LBW</a>"
+    description: "<a href='https://dl.acm.org/doi/10.1145/3491101.3519644/'> Our paper </a> on designing interventions for empowering user deliberation in online petition has been accepted to <a href='https://chi2022.acm.org/'>CHI 2022 LBW</a>"
+  
   
