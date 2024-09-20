@@ -11,9 +11,9 @@ description: Recent pubs of Donghoon Shin
     <p style="font-weight: 500 !important; text-transform: uppercase;">Publications</p>
     <div class="row mt-4">
         {% for pub in pubs %}
-        <div class="col-12">
+        <div class="col-12 col-sm-6">
             <p class="mb-0" style="font-size: 1rem; font-weight: 400 !important;">{{ pub.title }}</p>
-            <p class="mb-1" style="font-size: 1rem; font-weight: 200 !important;">{{ pub.authors}}</p>
+            <p class="mb-1" style="font-size: .85rem; font-weight: 200 !important;">{{ pub.authors }}</p>
             <p style="font-size: .95rem; font-weight: 300 !important;">{{ pub.venue }}</p>
             <hr>
         </div>
