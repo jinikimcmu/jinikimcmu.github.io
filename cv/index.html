@@ -2,7 +2,7 @@
 layout: default
 baseurl: /cv
 title: CV
-description: Curriculum vitae of Donghoon Shin
+description: Curriculum vitae of Jini Kim
 ---
 
 {% assign publications = site.publication | group_by: 'year' | sort: 'name' | reverse %}
@@ -94,7 +94,7 @@ description: Curriculum vitae of Donghoon Shin
                       <div class="dated-content"><a style="font-weight: 400" href="{{ '/publication/' | append: pub.slug | relative_url }}">{{ pub.title }}</a><br>
                         {% for author in pub.authors %}
                         {% assign author_data = site.data.people.people | where:"name", author | first %}
-                        {% if author == "Jini Kim" %}<a style="font-weight: 400 !important" href="https://donghoon.io">Jini Kim</a>{% if pub.coauthors contains author %}*{% endif %}{% else %}{% if pub.coauthors contains author %}{% if author_data.website %}<a href="{{ author_data.website }}" class="coauthor" style="font-weight: 400 !important">{{ author }}</a>*{% else %}<span class="coauthor" style="font-weight: 400 !important">{{ author }}</span>*{% endif %}{% else %}{% if author_data.website %}<a href="{{ author_data.website }}" class="coauthor">{{ author }}</a>{% else %}<span class="coauthor">{{ author }}</span>{% endif %}{% endif %}{% endif %}{% unless forloop.last%}, {% endunless %}
+                        {% if author == "Jini Kim" %}<a style="font-weight: 400 !important" href="https://jinikimcmu.github.io/">Jini Kim</a>{% if pub.coauthors contains author %}*{% endif %}{% else %}{% if pub.coauthors contains author %}{% if author_data.website %}<a href="{{ author_data.website }}" class="coauthor" style="font-weight: 400 !important">{{ author }}</a>*{% else %}<span class="coauthor" style="font-weight: 400 !important">{{ author }}</span>*{% endif %}{% else %}{% if author_data.website %}<a href="{{ author_data.website }}" class="coauthor">{{ author }}</a>{% else %}<span class="coauthor">{{ author }}</span>{% endif %}{% endif %}{% endif %}{% unless forloop.last%}, {% endunless %}
                         {% endfor %}{% if pub.coauthors %}<span style="font-size: .8rem; font-weight: 300" class="ms-2">(* co-first authorship)</span>{% endif %}
                         <br>
                         {{ pub.venue }}.{% if pub.note %} <span style="font-weight: 200 !important">({{ pub.note}})</span>{% endif %}<br>
