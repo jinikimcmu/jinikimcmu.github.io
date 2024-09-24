@@ -59,7 +59,7 @@ a {
 }
 a:hover {
   font-weight: 500 !important;
-  color: #e61d46 !important;
+  color: #d81b41 !important;
 }
 .zoom {
 	transition: transform .2s;
