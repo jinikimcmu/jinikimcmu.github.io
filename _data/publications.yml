@@ -3,7 +3,7 @@ list: # format date as dd/mm/yyyy
     authors: "<strong>Jini Kim</strong>, Hajun Kim (Co-first authors)"
     venue: "CHI 2024"
     pdf_url: "/assets/pdf/chi2024_creator_paper.pdf"
-  - title: "<a href= https://aodr.org/xml/39678/39678.pdf>Probe Study of Resource Exchange Service in Local Community: with focus on User Needs in Resource Definition, Exploration, and Negotiation Stages</a>" 
+  - title: "<a href= https://aodr.org/xml/39678/39678.pdf>🏆 Probe Study of Resource Exchange Service in Local Community: with focus on User Needs in Resource Definition, Exploration, and Negotiation Stages</a>" 
     authors: "Chorong Kim, <strong>Jini Kim</strong>, Eunji Woo"
     venue: "Archives of Design Research (Accepted Journal) [Scopus]"
     pdf_url: "/assets/pdf/chi2023_probe_paper.pdf"
