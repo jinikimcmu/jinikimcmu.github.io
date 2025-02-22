@@ -1,4 +1,8 @@
 list: # format date as dd/mm/yyyy
+  - title: "<a href= https://jinikimcmu.github.io/> ImaginAItion: Promoting Generative AI Literacy Through Game-Based Learning</a>"
+    authors: "Qianou Ma, Anika Jain*, <strong>Jini Kim*</strong>, Megan Chai*, Geoff Kaufman (Co-second authors)"
+    venue: "CHI 2025 Late-breaking Work"
+    pdf_url: "/assets/pdf/chi2024_creator_paper.pdf"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3613904.3642476> Unlocking Creator-AI Synergy: Challenges, Requirements, and Design Opportunities in AI-Powered Short-Form Video Production</a>"
     authors: "<strong>Jini Kim</strong>, Hajun Kim (Co-first authors)"
     venue: "CHI 2024"
