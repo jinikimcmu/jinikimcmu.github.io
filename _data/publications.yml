@@ -1,5 +1,9 @@
 list: # format date as dd/mm/yyyy
-  - title: "<a href= https://jinikimcmu.github.io/> ImaginAItion: Promoting Generative AI Literacy Through Game-Based Learning</a>"
+  - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>🏆 Making the Right Thing: Bridging HCI and Responsible AI in Early-Stage AI Concept Selection</a>"
+    authors: "Ji-Youn Jung, Devansh Saxena, Minjung Park, <strong>Jini Kim</strong>, Jodi Forlizzi, Ken Holstein, John Zimmerman"
+    venue: "CHI 2025 Late-breaking Work"
+    pdf_url: "/assets/pdf/chi2024_creator_paper.pdf"
+  - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3706599.3719844> ImaginAItion: Promoting Generative AI Literacy Through Game-Based Learning</a>"
     authors: "Qianou Ma, Anika Jain*, <strong>Jini Kim*</strong>, Megan Chai*, Geoff Kaufman (Co-second authors)"
     venue: "CHI 2025 Late-breaking Work"
     pdf_url: "/assets/pdf/chi2024_creator_paper.pdf"
