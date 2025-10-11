@@ -1,7 +1,7 @@
 list: # format date as dd/mm/yyyy
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>🏆 Making the Right Thing: Bridging HCI and Responsible AI in Early-Stage AI Concept Selection</a>"
     authors: "Ji-Youn Jung, Devansh Saxena, Minjung Park, <strong>Jini Kim</strong>, Jodi Forlizzi, Ken Holstein, John Zimmerman"
-    venue: "DIS 2025  |  Best Paper Honorable Mention Award"
+    venue: "DIS 2025 (Best Paper Honorable Mention Award)"
     pdf_url: "/assets/pdf/dis2025_right_thing.pdf"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3706599.3719844> ImaginAItion: Promoting Generative AI Literacy Through Game-Based Learning</a>"
     authors: "Qianou Ma, Anika Jain*, <strong>Jini Kim*</strong>, Megan Chai*, Geoff Kaufman (Co-second authors)"
@@ -13,7 +13,7 @@ list: # format date as dd/mm/yyyy
     pdf_url: "/assets/pdf/chi2024_creator_paper.pdf"
   - title: "<a href= https://aodr.org/xml/39678/39678.pdf>🏆 Probe Study of Resource Exchange Service in Local Community: with focus on User Needs in Resource Definition, Exploration, and Negotiation Stages</a>" 
     authors: "Chorong Kim, <strong>Jini Kim</strong>, Eunji Woo"
-    venue: "Archives of Design Research 2024  |  Best Paper Honorable Mention Award"
+    venue: "Archives of Design Research 2024 (Best Paper Honorable Mention Award)"
     pdf_url: "/assets/pdf/chi2023_probe_paper.pdf"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3491101.3519644> ThinkWrite: Design Interventions for Empowering User Deliberation in Online Petition </a>"
     authors: "<strong>Jini Kim</strong>, Chorong Kim, Ki-Young Nam"
