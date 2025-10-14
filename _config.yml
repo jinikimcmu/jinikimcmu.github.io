@@ -1,15 +1,16 @@
-title: Donghoon Shin
+title: Jini Kim
 author:
-  name: Donghoon Shin
-  email: dhoon@uw.edu
+  name: Jini Kim
+  email: jinik@andrew.cmu.edu
 description: > # this means to ignore newlines until "show_excerpts:"
-  Donghoon Shin is a first-year Ph.D. student in HCDE at the Unviersity of Washington
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
 permalink: /:title
 
-url: "https://donghoon.io" # the base hostname & protocol for your site
+google_analytics: G-D98LL0KWLR
+
+url: "https://jinikimcmu.github.io/" # the base hostname & protocol for your site
   
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
