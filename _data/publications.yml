@@ -1,4 +1,8 @@
 list: # format date as dd/mm/yyyy
+  - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>Content Creation with Generative AI: How Do Content Creators Responsibly Use Generative AI Tools?</a>"
+    authors: "<strong>Jini Kim</strong>, Manqing Yu, Jiayin Zhi, Stephanie Milani, Jingwen Cheng, Xianzhe Fan, Hong Shen*, Jodi Forlizzi*"
+    venue: "CSCW 2026"
+    pdf_url: "/assets/pdf/dis2025_right_thing.pdf"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>🏆 Making the Right Thing: Bridging HCI and Responsible AI in Early-Stage AI Concept Selection</a>"
     authors: "Ji-Youn Jung, Devansh Saxena, Minjung Park, <strong>Jini Kim</strong>, Jodi Forlizzi, Ken Holstein, John Zimmerman"
     venue: "DIS 2025 (Best Paper Honorable Mention Award)"
