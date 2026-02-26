@@ -1,4 +1,7 @@
 list: # format date as dd/mm/yyyy
+  - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>Situated, Dynamic, and Subjective: Envisioning the Design of Theory-of-Mind-Enabled Everyday AI with Industry Practitioners</a>"
+    authors: "Qiaosi Wang, <strong>Jini Kim</strong>, Avanita Sharma, Alicia (Hyun Jin) Lee, Jodi Forlizzi, Hong Shen"
+    venue: "CSCW 2026"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>Content Creation with Generative AI: How Do Content Creators Responsibly Use Generative AI Tools?</a>"
     authors: "<strong>Jini Kim</strong>, Manqing Yu, Jiayin Zhi, Stephanie Milani, Jingwen Cheng, Xianzhe Fan, Hong Shen*, Jodi Forlizzi*"
     venue: "CSCW 2026"
