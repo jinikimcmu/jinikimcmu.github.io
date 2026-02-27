@@ -1,4 +1,6 @@
 list: # format date as dd/mm/yyyy
+  - title: "Our paper on designing AI with ToM has been accepted to <a href='https://chi2026.acm.org/'>CHI 2026</a>. Yay!"
+    date: "'Feb 2026'"
   - title: "Our paper on content creators' responsible content creation with GenAI has been accepted to <a href='https://cscw.acm.org/2026/'>CSCW 2026</a>. Stay tuned!"
     date: "'Jan 2026'"
   - title: "Joined CMU's Paths to AI Research (PAIR) mentoring program as a mentor!"
