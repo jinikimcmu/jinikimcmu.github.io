@@ -1,5 +1,5 @@
 list: # format date as dd/mm/yyyy
-  - title: "Two papers have been accepted to <a href='https://cscw.acm.org/2026/'>CSCW 2026</a>. Stay tuned!"
+  - title: "Two first-authored papers have been accepted to <a href='https://cscw.acm.org/2026/'>CSCW 2026</a>. Stay tuned!"
     date: "'Mar 2026'"
   - title: "Our paper on designing AI with ToM has been accepted to <a href='https://chi2026.acm.org/'>CHI 2026</a>. Yay!"
     date: "'Feb 2026'"
