@@ -9,7 +9,7 @@ list: # format date as dd/mm/yyyy
     authors: "Qiaosi Wang, <strong>Jini Kim</strong>, Avanita Sharma, Alicia (Hyun Jin) Lee, Jodi Forlizzi, Hong Shen"
     venue: "CHI 2026"
     pdf_url: "/assets/pdf/dis2025_right_thing.pdf"
-  - title: "<a href= https://arxiv.org/pdf/2509.13679>GenAI Defaults to Bias!” Gamify AI literacy through Reflections on Prompts</a>"
+  - title: '<a href="https://arxiv.org/pdf/2509.13679">"GenAI Defaults to Bias!" Gamify AI literacy through Reflections on Prompts</a>'
     authors: "Qianou Ma, Megan Chai, Yike Tan, Jihun Choi, <strong>Jini Kim</strong>, Erik Harpstead, Geoff Kaufman, Tongshuang Wu"
     venue: "AIED 2026"
   - title: "<a href= https://dl.acm.org/doi/pdf/10.1145/3715336.3735745>🏆 Making the Right Thing: Bridging HCI and Responsible AI in Early-Stage AI Concept Selection</a>"
